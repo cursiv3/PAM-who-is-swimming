@@ -1,0 +1,17 @@
+for (var day = 1; day <= 365; day++) {
+
+    if (day % 50 === 0) {
+
+      print "Jack and John", day;
+
+    } else if (day % 3 === 0) {
+
+      print "Jack", day;
+
+    } else {
+
+      print "John", day;
+      
+    }
+  }
+
